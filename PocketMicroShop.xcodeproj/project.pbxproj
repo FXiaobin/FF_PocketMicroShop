@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF4522B1E078BA00071D4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4522A1E078BA00071D4A1 /* AppDelegate.swift */; };
+		3EF4522D1E078BA00071D4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4522C1E078BA00071D4A1 /* ViewController.swift */; };
+		3EF452301E078BA00071D4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4522E1E078BA00071D4A1 /* Main.storyboard */; };
+		3EF452321E078BA00071D4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF452311E078BA00071D4A1 /* Assets.xcassets */; };
+		3EF452351E078BA00071D4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF452331E078BA00071D4A1 /* LaunchScreen.storyboard */; };
+		3EF452401E078BA00071D4A1 /* PocketMicroShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4523F1E078BA00071D4A1 /* PocketMicroShopTests.swift */; };
+		3EF4524B1E078BA00071D4A1 /* PocketMicroShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4524A1E078BA00071D4A1 /* PocketMicroShopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF4523C1E078BA00071D4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF4521F1E078B9F0071D4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF452261E078BA00071D4A1;
+			remoteInfo = PocketMicroShop;
+		};
+		3EF452471E078BA00071D4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF4521F1E078B9F0071D4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF452261E078BA00071D4A1;
+			remoteInfo = PocketMicroShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EF452271E078BA00071D4A1 /* PocketMicroShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMicroShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF4522A1E078BA00071D4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EF4522C1E078BA00071D4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EF4522F1E078BA00071D4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF452311E078BA00071D4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF452341E078BA00071D4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF452361E078BA00071D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF4523B1E078BA00071D4A1 /* PocketMicroShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMicroShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF4523F1E078BA00071D4A1 /* PocketMicroShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMicroShopTests.swift; sourceTree = "<group>"; };
+		3EF452411E078BA00071D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF452461E078BA00071D4A1 /* PocketMicroShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMicroShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF4524A1E078BA00071D4A1 /* PocketMicroShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMicroShopUITests.swift; sourceTree = "<group>"; };
+		3EF4524C1E078BA00071D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF452241E078BA00071D4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF452381E078BA00071D4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF452431E078BA00071D4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF4521E1E078B9F0071D4A1 = {
+			isa = PBXGroup;
+			children = (
+				3EF452291E078BA00071D4A1 /* PocketMicroShop */,
+				3EF4523E1E078BA00071D4A1 /* PocketMicroShopTests */,
+				3EF452491E078BA00071D4A1 /* PocketMicroShopUITests */,
+				3EF452281E078BA00071D4A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF452281E078BA00071D4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452271E078BA00071D4A1 /* PocketMicroShop.app */,
+				3EF4523B1E078BA00071D4A1 /* PocketMicroShopTests.xctest */,
+				3EF452461E078BA00071D4A1 /* PocketMicroShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF452291E078BA00071D4A1 /* PocketMicroShop */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4522A1E078BA00071D4A1 /* AppDelegate.swift */,
+				3EF4522C1E078BA00071D4A1 /* ViewController.swift */,
+				3EF4522E1E078BA00071D4A1 /* Main.storyboard */,
+				3EF452311E078BA00071D4A1 /* Assets.xcassets */,
+				3EF452331E078BA00071D4A1 /* LaunchScreen.storyboard */,
+				3EF452361E078BA00071D4A1 /* Info.plist */,
+			);
+			path = PocketMicroShop;
+			sourceTree = "<group>";
+		};
+		3EF4523E1E078BA00071D4A1 /* PocketMicroShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4523F1E078BA00071D4A1 /* PocketMicroShopTests.swift */,
+				3EF452411E078BA00071D4A1 /* Info.plist */,
+			);
+			path = PocketMicroShopTests;
+			sourceTree = "<group>";
+		};
+		3EF452491E078BA00071D4A1 /* PocketMicroShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4524A1E078BA00071D4A1 /* PocketMicroShopUITests.swift */,
+				3EF4524C1E078BA00071D4A1 /* Info.plist */,
+			);
+			path = PocketMicroShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF452261E078BA00071D4A1 /* PocketMicroShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF4524F1E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShop" */;
+			buildPhases = (
+				3EF452231E078BA00071D4A1 /* Sources */,
+				3EF452241E078BA00071D4A1 /* Frameworks */,
+				3EF452251E078BA00071D4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketMicroShop;
+			productName = PocketMicroShop;
+			productReference = 3EF452271E078BA00071D4A1 /* PocketMicroShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF4523A1E078BA00071D4A1 /* PocketMicroShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF452521E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShopTests" */;
+			buildPhases = (
+				3EF452371E078BA00071D4A1 /* Sources */,
+				3EF452381E078BA00071D4A1 /* Frameworks */,
+				3EF452391E078BA00071D4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF4523D1E078BA00071D4A1 /* PBXTargetDependency */,
+			);
+			name = PocketMicroShopTests;
+			productName = PocketMicroShopTests;
+			productReference = 3EF4523B1E078BA00071D4A1 /* PocketMicroShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF452451E078BA00071D4A1 /* PocketMicroShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF452551E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShopUITests" */;
+			buildPhases = (
+				3EF452421E078BA00071D4A1 /* Sources */,
+				3EF452431E078BA00071D4A1 /* Frameworks */,
+				3EF452441E078BA00071D4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF452481E078BA00071D4A1 /* PBXTargetDependency */,
+			);
+			name = PocketMicroShopUITests;
+			productName = PocketMicroShopUITests;
+			productReference = 3EF452461E078BA00071D4A1 /* PocketMicroShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF4521F1E078B9F0071D4A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lovepinyao;
+				TargetAttributes = {
+					3EF452261E078BA00071D4A1 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YY687S7T3B;
+						ProvisioningStyle = Automatic;
+					};
+					3EF4523A1E078BA00071D4A1 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YY687S7T3B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF452261E078BA00071D4A1;
+					};
+					3EF452451E078BA00071D4A1 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YY687S7T3B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF452261E078BA00071D4A1;
+					};
+				};
+			};
+			buildConfigurationList = 3EF452221E078B9F0071D4A1 /* Build configuration list for PBXProject "PocketMicroShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF4521E1E078B9F0071D4A1;
+			productRefGroup = 3EF452281E078BA00071D4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF452261E078BA00071D4A1 /* PocketMicroShop */,
+				3EF4523A1E078BA00071D4A1 /* PocketMicroShopTests */,
+				3EF452451E078BA00071D4A1 /* PocketMicroShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF452251E078BA00071D4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF452351E078BA00071D4A1 /* LaunchScreen.storyboard in Resources */,
+				3EF452321E078BA00071D4A1 /* Assets.xcassets in Resources */,
+				3EF452301E078BA00071D4A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF452391E078BA00071D4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF452441E078BA00071D4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF452231E078BA00071D4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4522D1E078BA00071D4A1 /* ViewController.swift in Sources */,
+				3EF4522B1E078BA00071D4A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF452371E078BA00071D4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF452401E078BA00071D4A1 /* PocketMicroShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF452421E078BA00071D4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4524B1E078BA00071D4A1 /* PocketMicroShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF4523D1E078BA00071D4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF452261E078BA00071D4A1 /* PocketMicroShop */;
+			targetProxy = 3EF4523C1E078BA00071D4A1 /* PBXContainerItemProxy */;
+		};
+		3EF452481E078BA00071D4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF452261E078BA00071D4A1 /* PocketMicroShop */;
+			targetProxy = 3EF452471E078BA00071D4A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF4522E1E078BA00071D4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF4522F1E078BA00071D4A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF452331E078BA00071D4A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF452341E078BA00071D4A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF4524D1E078BA00071D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EF4524E1E078BA00071D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF452501E078BA00071D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YY687S7T3B;
+				INFOPLIST_FILE = PocketMicroShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3EF452511E078BA00071D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YY687S7T3B;
+				INFOPLIST_FILE = PocketMicroShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3EF452531E078BA00071D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YY687S7T3B;
+				INFOPLIST_FILE = PocketMicroShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketMicroShop.app/PocketMicroShop";
+			};
+			name = Debug;
+		};
+		3EF452541E078BA00071D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YY687S7T3B;
+				INFOPLIST_FILE = PocketMicroShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketMicroShop.app/PocketMicroShop";
+			};
+			name = Release;
+		};
+		3EF452561E078BA00071D4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YY687S7T3B;
+				INFOPLIST_FILE = PocketMicroShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PocketMicroShop;
+			};
+			name = Debug;
+		};
+		3EF452571E078BA00071D4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YY687S7T3B;
+				INFOPLIST_FILE = PocketMicroShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PocketMicroShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF452221E078B9F0071D4A1 /* Build configuration list for PBXProject "PocketMicroShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF4524D1E078BA00071D4A1 /* Debug */,
+				3EF4524E1E078BA00071D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF4524F1E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF452501E078BA00071D4A1 /* Debug */,
+				3EF452511E078BA00071D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EF452521E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF452531E078BA00071D4A1 /* Debug */,
+				3EF452541E078BA00071D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EF452551E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF452561E078BA00071D4A1 /* Debug */,
+				3EF452571E078BA00071D4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF4521F1E078B9F0071D4A1 /* Project object */;
+}
