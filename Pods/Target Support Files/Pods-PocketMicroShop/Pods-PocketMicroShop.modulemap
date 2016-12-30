@@ -1,0 +1,6 @@
+framework module Pods_PocketMicroShop {
+  umbrella header "Pods-PocketMicroShop-umbrella.h"
+
+  export *
+  module * { export * }
+}

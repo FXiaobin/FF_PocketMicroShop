@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EF4522B1E078BA00071D4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4522A1E078BA00071D4A1 /* AppDelegate.swift */; };
-		3EF4522D1E078BA00071D4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4522C1E078BA00071D4A1 /* ViewController.swift */; };
+		39279A771908422CF695CF61 /* Pods_PocketMicroShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B43CF6B7732CC0FEBA73549 /* Pods_PocketMicroShop.framework */; };
+		3E712DAA1E08CE6E006A3FFC /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E712DA91E08CE6E006A3FFC /* RootTabBarViewController.swift */; };
+		3E712DAC1E08D64D006A3FFC /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E712DAB1E08D64D006A3FFC /* UIImage.swift */; };
+		3E712DAF1E0909B5006A3FFC /* TopHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E712DAD1E0909B5006A3FFC /* TopHomeCell.swift */; };
+		3E712DB01E0909B5006A3FFC /* TopHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E712DAE1E0909B5006A3FFC /* TopHomeCell.xib */; };
+		3E712DB31E092DFC006A3FFC /* GoodsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E712DB21E092DFC006A3FFC /* GoodsDetailViewController.swift */; };
+		3EA3C0451E0A2A5C0035820A /* PersonNaviBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C0441E0A2A5C0035820A /* PersonNaviBarView.swift */; };
+		3EA3C0471E0A2A670035820A /* PersonNaviBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3C0461E0A2A670035820A /* PersonNaviBarView.xib */; };
+		3EA3C0491E0A5A200035820A /* PersonHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C0481E0A5A200035820A /* PersonHeaderView.swift */; };
+		3EA3C04B1E0A5A2A0035820A /* PersonHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3C04A1E0A5A2A0035820A /* PersonHeaderView.xib */; };
+		3ED0594F1E07B4E00094D473 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0594E1E07B4E00094D473 /* UIColor.swift */; };
+		3ED059511E07B4EA0094D473 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED059501E07B4EA0094D473 /* String.swift */; };
+		3ED059531E07DF6F0094D473 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED059521E07DF6F0094D473 /* BaseNavigationController.swift */; };
+		3ED059551E07DFC20094D473 /* GoodsManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED059541E07DFC20094D473 /* GoodsManagerViewController.swift */; };
+		3ED059571E07DFD40094D473 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED059561E07DFD40094D473 /* HomePageViewController.swift */; };
+		3ED059591E07DFED0094D473 /* OrderManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED059581E07DFED0094D473 /* OrderManagerViewController.swift */; };
+		3ED0595B1E07E0070094D473 /* PersonCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0595A1E07E0070094D473 /* PersonCenterViewController.swift */; };
+		3ED0595D1E07E0190094D473 /* ShopManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0595C1E07E0190094D473 /* ShopManagerViewController.swift */; };
+		3ED0595F1E07E0330094D473 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0595E1E07E0330094D473 /* BaseTableViewController.swift */; };
 		3EF452301E078BA00071D4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4522E1E078BA00071D4A1 /* Main.storyboard */; };
 		3EF452321E078BA00071D4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF452311E078BA00071D4A1 /* Assets.xcassets */; };
 		3EF452351E078BA00071D4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF452331E078BA00071D4A1 /* LaunchScreen.storyboard */; };
 		3EF452401E078BA00071D4A1 /* PocketMicroShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4523F1E078BA00071D4A1 /* PocketMicroShopTests.swift */; };
 		3EF4524B1E078BA00071D4A1 /* PocketMicroShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4524A1E078BA00071D4A1 /* PocketMicroShopUITests.swift */; };
+		3EF4527E1E07A5700071D4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4527D1E07A5700071D4A1 /* AppDelegate.swift */; };
+		3EF452801E07A5BC0071D4A1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4527F1E07A5BC0071D4A1 /* BaseViewController.swift */; };
+		3EF452851E07A6B00071D4A1 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF452841E07A6B00071D4A1 /* Define.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33591BE53C093CF3D94706BB /* Pods-PocketMicroShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketMicroShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketMicroShop/Pods-PocketMicroShop.debug.xcconfig"; sourceTree = "<group>"; };
+		3E712DA91E08CE6E006A3FFC /* RootTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		3E712DAB1E08D64D006A3FFC /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		3E712DAD1E0909B5006A3FFC /* TopHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopHomeCell.swift; sourceTree = "<group>"; };
+		3E712DAE1E0909B5006A3FFC /* TopHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopHomeCell.xib; sourceTree = "<group>"; };
+		3E712DB11E091273006A3FFC /* PocketMicroShop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketMicroShop-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E712DB21E092DFC006A3FFC /* GoodsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailViewController.swift; sourceTree = "<group>"; };
+		3EA3C0441E0A2A5C0035820A /* PersonNaviBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonNaviBarView.swift; sourceTree = "<group>"; };
+		3EA3C0461E0A2A670035820A /* PersonNaviBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonNaviBarView.xib; sourceTree = "<group>"; };
+		3EA3C0481E0A5A200035820A /* PersonHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonHeaderView.swift; sourceTree = "<group>"; };
+		3EA3C04A1E0A5A2A0035820A /* PersonHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonHeaderView.xib; sourceTree = "<group>"; };
+		3ED0594E1E07B4E00094D473 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		3ED059501E07B4EA0094D473 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		3ED059521E07DF6F0094D473 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		3ED059541E07DFC20094D473 /* GoodsManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsManagerViewController.swift; sourceTree = "<group>"; };
+		3ED059561E07DFD40094D473 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3ED059581E07DFED0094D473 /* OrderManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderManagerViewController.swift; sourceTree = "<group>"; };
+		3ED0595A1E07E0070094D473 /* PersonCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCenterViewController.swift; sourceTree = "<group>"; };
+		3ED0595C1E07E0190094D473 /* ShopManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopManagerViewController.swift; sourceTree = "<group>"; };
+		3ED0595E1E07E0330094D473 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		3EF452271E078BA00071D4A1 /* PocketMicroShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMicroShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EF4522A1E078BA00071D4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EF4522C1E078BA00071D4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EF4522F1E078BA00071D4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EF452311E078BA00071D4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF452341E078BA00071D4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +85,11 @@
 		3EF452461E078BA00071D4A1 /* PocketMicroShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMicroShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF4524A1E078BA00071D4A1 /* PocketMicroShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMicroShopUITests.swift; sourceTree = "<group>"; };
 		3EF4524C1E078BA00071D4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF4527D1E07A5700071D4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EF4527F1E07A5BC0071D4A1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3EF452841E07A6B00071D4A1 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		6B43CF6B7732CC0FEBA73549 /* Pods_PocketMicroShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketMicroShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD5DD8B57859AA7244DB1D4 /* Pods-PocketMicroShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketMicroShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketMicroShop/Pods-PocketMicroShop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39279A771908422CF695CF61 /* Pods_PocketMicroShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +118,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ED0594A1E07B1EC0094D473 /* Externs */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0594B1E07B1EC0094D473 /* Categories */,
+			);
+			path = Externs;
+			sourceTree = "<group>";
+		};
+		3ED0594B1E07B1EC0094D473 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0594E1E07B4E00094D473 /* UIColor.swift */,
+				3ED059501E07B4EA0094D473 /* String.swift */,
+				3E712DAB1E08D64D006A3FFC /* UIImage.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		3EF4521E1E078B9F0071D4A1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				3EF4523E1E078BA00071D4A1 /* PocketMicroShopTests */,
 				3EF452491E078BA00071D4A1 /* PocketMicroShopUITests */,
 				3EF452281E078BA00071D4A1 /* Products */,
+				7CBD80AF4EE0182015090BAB /* Pods */,
+				B00B9D63E7EECCA34AC56727 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +161,15 @@
 		3EF452291E078BA00071D4A1 /* PocketMicroShop */ = {
 			isa = PBXGroup;
 			children = (
-				3EF4522A1E078BA00071D4A1 /* AppDelegate.swift */,
-				3EF4522C1E078BA00071D4A1 /* ViewController.swift */,
+				3ED0594A1E07B1EC0094D473 /* Externs */,
+				3EF452811E07A6510071D4A1 /* Macros */,
+				3EF4527C1E07A55C0071D4A1 /* Appdelegate */,
+				3EF452581E07A52D0071D4A1 /* MainUI */,
 				3EF4522E1E078BA00071D4A1 /* Main.storyboard */,
 				3EF452311E078BA00071D4A1 /* Assets.xcassets */,
 				3EF452331E078BA00071D4A1 /* LaunchScreen.storyboard */,
 				3EF452361E078BA00071D4A1 /* Info.plist */,
+				3E712DB11E091273006A3FFC /* PocketMicroShop-Bridging-Header.h */,
 			);
 			path = PocketMicroShop;
 			sourceTree = "<group>";
@@ -125,6 +192,342 @@
 			path = PocketMicroShopUITests;
 			sourceTree = "<group>";
 		};
+		3EF452581E07A52D0071D4A1 /* MainUI */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452591E07A52D0071D4A1 /* Base */,
+				3EF4525E1E07A52D0071D4A1 /* GoodsManager */,
+				3EF452631E07A52D0071D4A1 /* HomePage */,
+				3EF452681E07A52D0071D4A1 /* Login&Register */,
+				3EF4526D1E07A52D0071D4A1 /* OrderManager */,
+				3EF452721E07A52D0071D4A1 /* PersonCenter */,
+				3EF452771E07A52D0071D4A1 /* ShopManager */,
+			);
+			path = MainUI;
+			sourceTree = "<group>";
+		};
+		3EF452591E07A52D0071D4A1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4525A1E07A52D0071D4A1 /* Cells */,
+				3EF4525B1E07A52D0071D4A1 /* Controllers */,
+				3EF4525C1E07A52D0071D4A1 /* Models */,
+				3EF4525D1E07A52D0071D4A1 /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3EF4525A1E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF4525B1E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4527F1E07A5BC0071D4A1 /* BaseViewController.swift */,
+				3ED059521E07DF6F0094D473 /* BaseNavigationController.swift */,
+				3ED0595E1E07E0330094D473 /* BaseTableViewController.swift */,
+				3E712DA91E08CE6E006A3FFC /* RootTabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF4525C1E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF4525D1E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF4525E1E07A52D0071D4A1 /* GoodsManager */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4525F1E07A52D0071D4A1 /* Cells */,
+				3EF452601E07A52D0071D4A1 /* Controllers */,
+				3EF452611E07A52D0071D4A1 /* Models */,
+				3EF452621E07A52D0071D4A1 /* Views */,
+			);
+			path = GoodsManager;
+			sourceTree = "<group>";
+		};
+		3EF4525F1E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF452601E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ED059541E07DFC20094D473 /* GoodsManagerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF452611E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF452621E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF452631E07A52D0071D4A1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452641E07A52D0071D4A1 /* Cells */,
+				3EF452651E07A52D0071D4A1 /* Controllers */,
+				3EF452661E07A52D0071D4A1 /* Models */,
+				3EF452671E07A52D0071D4A1 /* Views */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		3EF452641E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E712DAD1E0909B5006A3FFC /* TopHomeCell.swift */,
+				3E712DAE1E0909B5006A3FFC /* TopHomeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF452651E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ED059561E07DFD40094D473 /* HomePageViewController.swift */,
+				3E712DB21E092DFC006A3FFC /* GoodsDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF452661E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF452671E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF452681E07A52D0071D4A1 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452691E07A52D0071D4A1 /* Cells */,
+				3EF4526A1E07A52D0071D4A1 /* Controllers */,
+				3EF4526B1E07A52D0071D4A1 /* Models */,
+				3EF4526C1E07A52D0071D4A1 /* Views */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		3EF452691E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF4526A1E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF4526B1E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF4526C1E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF4526D1E07A52D0071D4A1 /* OrderManager */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4526E1E07A52D0071D4A1 /* Cells */,
+				3EF4526F1E07A52D0071D4A1 /* Controllers */,
+				3EF452701E07A52D0071D4A1 /* Models */,
+				3EF452711E07A52D0071D4A1 /* Views */,
+			);
+			path = OrderManager;
+			sourceTree = "<group>";
+		};
+		3EF4526E1E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF4526F1E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ED059581E07DFED0094D473 /* OrderManagerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF452701E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF452711E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF452721E07A52D0071D4A1 /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452731E07A52D0071D4A1 /* Cells */,
+				3EF452741E07A52D0071D4A1 /* Controllers */,
+				3EF452751E07A52D0071D4A1 /* Models */,
+				3EF452761E07A52D0071D4A1 /* Views */,
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		3EF452731E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF452741E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0595A1E07E0070094D473 /* PersonCenterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF452751E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF452761E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3C0441E0A2A5C0035820A /* PersonNaviBarView.swift */,
+				3EA3C0461E0A2A670035820A /* PersonNaviBarView.xib */,
+				3EA3C0481E0A5A200035820A /* PersonHeaderView.swift */,
+				3EA3C04A1E0A5A2A0035820A /* PersonHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF452771E07A52D0071D4A1 /* ShopManager */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452781E07A52D0071D4A1 /* Cells */,
+				3EF452791E07A52D0071D4A1 /* Controllers */,
+				3EF4527A1E07A52D0071D4A1 /* Models */,
+				3EF4527B1E07A52D0071D4A1 /* Views */,
+			);
+			path = ShopManager;
+			sourceTree = "<group>";
+		};
+		3EF452781E07A52D0071D4A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF452791E07A52D0071D4A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0595C1E07E0190094D473 /* ShopManagerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EF4527A1E07A52D0071D4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF4527B1E07A52D0071D4A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF4527C1E07A55C0071D4A1 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4527D1E07A5700071D4A1 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		3EF452811E07A6510071D4A1 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				3EF452841E07A6B00071D4A1 /* Define.swift */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		7CBD80AF4EE0182015090BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33591BE53C093CF3D94706BB /* Pods-PocketMicroShop.debug.xcconfig */,
+				BFD5DD8B57859AA7244DB1D4 /* Pods-PocketMicroShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B00B9D63E7EECCA34AC56727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B43CF6B7732CC0FEBA73549 /* Pods_PocketMicroShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +535,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EF4524F1E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShop" */;
 			buildPhases = (
+				282F547BF3743D97B8E78FAE /* 📦 Check Pods Manifest.lock */,
 				3EF452231E078BA00071D4A1 /* Sources */,
 				3EF452241E078BA00071D4A1 /* Frameworks */,
 				3EF452251E078BA00071D4A1 /* Resources */,
+				FC3919650145A35FA4E2803A /* 📦 Embed Pods Frameworks */,
+				75BA485267D64CD05734B2D8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +641,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E712DB01E0909B5006A3FFC /* TopHomeCell.xib in Resources */,
 				3EF452351E078BA00071D4A1 /* LaunchScreen.storyboard in Resources */,
+				3EA3C04B1E0A5A2A0035820A /* PersonHeaderView.xib in Resources */,
 				3EF452321E078BA00071D4A1 /* Assets.xcassets in Resources */,
+				3EA3C0471E0A2A670035820A /* PersonNaviBarView.xib in Resources */,
 				3EF452301E078BA00071D4A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +666,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		282F547BF3743D97B8E78FAE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75BA485267D64CD05734B2D8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketMicroShop/Pods-PocketMicroShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3919650145A35FA4E2803A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketMicroShop/Pods-PocketMicroShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EF452231E078BA00071D4A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF4522D1E078BA00071D4A1 /* ViewController.swift in Sources */,
-				3EF4522B1E078BA00071D4A1 /* AppDelegate.swift in Sources */,
+				3EA3C0451E0A2A5C0035820A /* PersonNaviBarView.swift in Sources */,
+				3ED0595D1E07E0190094D473 /* ShopManagerViewController.swift in Sources */,
+				3EA3C0491E0A5A200035820A /* PersonHeaderView.swift in Sources */,
+				3EF4527E1E07A5700071D4A1 /* AppDelegate.swift in Sources */,
+				3ED0594F1E07B4E00094D473 /* UIColor.swift in Sources */,
+				3ED059591E07DFED0094D473 /* OrderManagerViewController.swift in Sources */,
+				3E712DAF1E0909B5006A3FFC /* TopHomeCell.swift in Sources */,
+				3ED059531E07DF6F0094D473 /* BaseNavigationController.swift in Sources */,
+				3ED059511E07B4EA0094D473 /* String.swift in Sources */,
+				3ED0595F1E07E0330094D473 /* BaseTableViewController.swift in Sources */,
+				3E712DB31E092DFC006A3FFC /* GoodsDetailViewController.swift in Sources */,
+				3ED059571E07DFD40094D473 /* HomePageViewController.swift in Sources */,
+				3ED0595B1E07E0070094D473 /* PersonCenterViewController.swift in Sources */,
+				3ED059551E07DFC20094D473 /* GoodsManagerViewController.swift in Sources */,
+				3EF452851E07A6B00071D4A1 /* Define.swift in Sources */,
+				3EF452801E07A5BC0071D4A1 /* BaseViewController.swift in Sources */,
+				3E712DAA1E08CE6E006A3FFC /* RootTabBarViewController.swift in Sources */,
+				3E712DAC1E08D64D006A3FFC /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,26 +884,32 @@
 		};
 		3EF452501E078BA00071D4A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33591BE53C093CF3D94706BB /* Pods-PocketMicroShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YY687S7T3B;
 				INFOPLIST_FILE = PocketMicroShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/PocketMicroShop/PocketMicroShop-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3EF452511E078BA00071D4A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD5DD8B57859AA7244DB1D4 /* Pods-PocketMicroShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YY687S7T3B;
 				INFOPLIST_FILE = PocketMicroShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lovepinyao.PocketMicroShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/PocketMicroShop/PocketMicroShop-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -512,6 +991,7 @@
 				3EF452511E078BA00071D4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EF452521E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShopTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +1000,7 @@
 				3EF452541E078BA00071D4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EF452551E078BA00071D4A1 /* Build configuration list for PBXNativeTarget "PocketMicroShopUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +1009,7 @@
 				3EF452571E078BA00071D4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
