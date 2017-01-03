@@ -14,6 +14,7 @@ class GoodsManagerViewController: BaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.cyan
         self.navigationItem.title = "商品管理"
     }
 
